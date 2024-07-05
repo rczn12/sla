@@ -1,0 +1,30 @@
+main{
+  padding-top: 10px;
+}
+table{
+  width: 90%;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+  border: 5px solid #e5e4e3 ;
+  border-radius:5px;
+}
+
+.thead__titulo{
+  background-color: #B3D9DB;
+
+}
+.thead__content{
+  background-color: #d9b39d;
+  border-bottom: 1px groove #e5e4e3;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #9DDBB3;
+
+}
+tr th:first-child{ /* TD no dos alunos*/
+  border-right: 1px groove #e5e4e3;
+}
+/*
